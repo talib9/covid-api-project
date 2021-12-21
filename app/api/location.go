@@ -27,7 +27,7 @@ func GetByGeoCoordinates(lat string, lng string) (string, error) {
 	query := fmt.Sprintf("%s%s/rev_geocode?lat=%s&lng=%s&region=IND", url, api, lat, lng)
     // fmt.Println("query= " ,query)
 	
-	query = "https://apis.mapmyindia.com/advancedmaps/v1/325129ace3489e1600a7cf08d4952970/rev_geocode?lat=28.7041&lng=77.1025&region=IND"
+	// query = "https://apis.mapmyindia.com/advancedmaps/v1/325129ace3489e1600a7cf08d4952970/rev_geocode?lat=28.7041&lng=77.1025&region=IND"
 	res, err := http.Get(query)
 	// fmt.Println(res)
 	if err != nil {

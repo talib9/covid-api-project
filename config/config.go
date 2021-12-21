@@ -109,7 +109,7 @@ func ConnectionMongoDb() (*mongo.Collection, error) {
 	}
 	db := client.Database("covid")
 	collection := db.Collection("statewise")
-    fmt.Println(collection)
+    // fmt.Println(collection)
 	return collection, nil
 }
 
