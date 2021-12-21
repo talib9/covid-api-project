@@ -1,0 +1,8 @@
+{
+    "Geocoding_apikey" : "325129ace3489e1600a7cf08d4952970",
+	"Mongodb_user" :  "Talib",
+	"Mongodb_password": "Talib96487",
+	"Covid_api" : "https://data.covid19india.org/v4/min/data.min.json",
+	"Mongodb_host" : "cluster0.cvwln.mongodb.net",
+	"Geocoding_api" : "https://apis.mapmyindia.com/advancedmaps/v1/"
+}
