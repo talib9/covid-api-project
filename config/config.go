@@ -116,7 +116,7 @@ func ConnectionMongoDb() (*mongo.Collection, error) {
 // Getting configurations
 func GetConfigurations() Configurations {
 
-	config, err := http.Get("https://raw.githubusercontent.com/talib9/CovidApi_Project/main/project/config.json")
+	config, err := http.Get("https://raw.githubusercontent.com/talib9/covid-api-project/master/config.json")
 	if err != nil {
 		logs.MyLogger(err)
 		log.Panic(err)
